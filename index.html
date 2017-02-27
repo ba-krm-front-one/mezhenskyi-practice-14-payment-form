@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Form</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+</head>
+    <body>
+        <div class="ba-background ba-margin--center">
+            <div class="ba-container ba-margin--center">
+                <header class="ba-header-content">
+                    <div class="ba-header-flex-container">
+                        <div class="ba-header-title">
+                            <h1 class="ba-title ba-title--big">Harold Finch</h1>
+                            <h4 class="ba-title ba-title--small">Your Total</h4>
+                        </div>
+                        <div class="ba-price">
+                            <h2 class="ba-price__amount">$88</h2>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <form action="" class="ba-form-content">
+                        <label class="ba-label" for="card_number">Credit card number</label>
+                            <input id="card_number" class="ba-input ba-row-1" type="number">
+
+
+
+                        <label class="ba-label" for="date">Expiration date</label>
+                        <div class="ba-flex-row-2">
+                                    <select name="Month" id="date"
+                                            class="ba-input ba-row-2-1">
+                                        <option disabled selected>Month</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                    <select name="Year" class="ba-input ba-row-2-2">
+                                        <option disabled selected>Year</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                    </select>
+                       </div>
+                        <label class="ba-label" for="cvv">CVV
+                            <div class="ba-row-3">
+                            <input type="number" id="cvv" class="ba-input ">
+                                3 or 4 digits - view example
+                            </div>
+                        </label>
+                        <hr class="ba-line">
+                        <button type="submit" class="ba-button">Pay</button>
+                    </form>
+                </main>
+                <footer>
+                    <div class="ba-margin--center">
+                        <a href="#" class="ba-link">Cancel order</a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
