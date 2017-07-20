@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.1s ease-in;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgray;
+    padding: 15px;
+}
+.ba-margin--center {
+    margin: 0 auto;
+}
+.ba-background {
+    max-width: 800px;
+    min-width: 100px;
+    height: 600px;
+    background: linear-gradient(to right, rgba(125,126,125,0.7) 0%,rgba(14,14,14,0.7) 100%), url("../assets/unsplash.png") right top no-repeat;
+    padding: 35px 0;
+}
+.ba-container {
+    max-width: 336px;
+    min-width: 100px;
+    min-height: 550px;
+    background-color: #ffffff;
+}
+.ba-header-content {
+    max-width: 336px;
+    min-width: 100px;
+    min-height: 72px;
+    background-color: #f8edaf;
+    margin-bottom: 45px;
+}
+.ba-header-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ba-header-title {
+    padding: 25px 0 0 24px;
+}
+.ba-title {
+    flex-grow: 1;
+}
+.ba-title--big {
+    color: #6e7f7b;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 4px;
+    margin:0;
+}
+.ba-title--small {
+    color: #a6a28d;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin:0;
+}
+.ba-price {
+    padding-left: 24px;
+}
+.ba-price__amount {
+    color: #637570;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+    padding: 21px 24px 0 0;
+}
+.ba-form-content {
+    margin: 0 24px;
+}
+.ba-label {
+    margin-top: 25px;
+    color: #9eabad;
+    font-size: 13px;
+    font-weight: 400;
+}
+.ba-input {
+    height: 44px;
+    border: 2px solid #bac8cb;
+    background-color: #ffffff;
+    margin-top: 9px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+.ba-row-1 {
+    width: 288px;
+}
+.ba-flex-row-2 {
+    flex-flow: row wrap;
+    /*justify-content: space-between;*/
+}
+.ba-row-2-1 {
+    /*flex-grow: 2;*/
+    /*flex-basis: 176px;*/
+    /*max-width: 176px;*/
+    width: 176px;
+    margin-right: 11px;
+
+}
+.ba-row-2-2 {
+    /*flex-grow: 1;*/
+    /*flex-basis: 96px;*/
+    /*max-width: 96px;*/
+    width: 96px;
+}
+.ba-row-3 {
+    display: inline-block;
+}
+.ba-row-3 .ba-input {
+    width: 96px;
+}
+.ba-button {
+    width: 288px;
+    height: 48px;
+    background-color: #25b86a;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-bottom: 22px;
+    margin-top: 30px;
+}
+.ba-link {
+    color: #9eabad;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 129px;
+}
+.ba-line {
+    height: 1px;
+    background-color: #edf0f1;
+    border: none;
+}
